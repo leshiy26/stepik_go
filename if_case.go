@@ -45,7 +45,7 @@ func main() {
 		fmt.Print("default ")
 	}
 
-	var (
+	/*var (
 		d int
 	)
 	fmt.Scanln(&d)
@@ -57,6 +57,18 @@ func main() {
 	default:
 		println("Ноль")
 
+	}
+	*/
+	var (
+		e int
+	)
+	fmt.Scanln(&e)
+	if e > 0 {
+		println("Число положительное")
+	} else if e < 0 {
+		println("Число отрицательное")
+	} else {
+		println("Ноль")
 	}
 
 }
